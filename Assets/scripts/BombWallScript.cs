@@ -5,7 +5,7 @@ using UnityEngine;
 public class BombWallScript : MonoBehaviour {
 
     public BoxCollider2D BombWall;
-    public bool HitByBomb;
+    bool HitByBomb;
 
 	// Use this for initialization
 	void Start () {
@@ -19,10 +19,12 @@ public class BombWallScript : MonoBehaviour {
 
     private void OnCollisionEnter2D (Collision2D coll)
     {
-        if (coll.gameObject.tag == "bomb")
+        if (coll.gameObject.tag.Equals("Bomb"))
         {
             print("A bomb is hitting the wall!");
             HitByBomb = true;
+            Destroy(coll.gameObject);
+            Destroy(gameObject);
         }
     }
 }
