@@ -7,6 +7,7 @@ TagManager:
   - Bomb
   - Key
   - KeyDoor
+  - staticBomb
   layers:
   - Default
   - TransparentFX
