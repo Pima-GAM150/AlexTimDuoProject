@@ -26,9 +26,9 @@ public class BombWallScript : MonoBehaviour {
         }
 	}
 
-    void OnTriggerEnter2D(Collision2D coll)
+    void OnTriggerEnter2D(Collider2D collision)
     {
-        if (coll.gameObject.tag == "Bomb")
+        if (collision.gameObject.tag == "Bomb")
         {
             print("A bomb is hitting the wall!");
             HitByBomb = true;

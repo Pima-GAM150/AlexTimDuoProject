@@ -10,6 +10,7 @@ public class PlayerController : MonoBehaviour {
 
     private bool playerMoving;
     private Vector2 lastMove;
+    public int KeyCount;
 
 	// Use this for initialization
 	void Start () {
@@ -48,6 +49,7 @@ public class PlayerController : MonoBehaviour {
         {
             print("Picking up the key");
             Destroy(collision.gameObject);
+            KeyCount += 1;
         }
     }
 }
