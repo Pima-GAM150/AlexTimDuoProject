@@ -51,5 +51,20 @@ public class PlayerController : MonoBehaviour {
             Destroy(collision.gameObject);
             KeyCount += 1;
         }
+
+        else if (collision.gameObject.tag == "KeyDoor")
+        {
+            if(KeyCount > 0)
+            {
+                print("Unlocking the door");
+                Destroy(collision.gameObject);
+                KeyCount -= 1;
+            }
+
+            else
+            {
+                print("I can't unlock that right now.");
+            }
+        }
     }
 }
