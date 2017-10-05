@@ -10,7 +10,8 @@ public class PlayerController : MonoBehaviour {
 
     private bool playerMoving;
     private Vector2 lastMove;
-    public int KeyCount;
+    public int keyCount;
+    public int bombCount;
 
 	// Use this for initialization
 	void Start () {
@@ -49,22 +50,29 @@ public class PlayerController : MonoBehaviour {
         {
             print("Picking up the key");
             Destroy(collision.gameObject);
-            KeyCount += 1;
+            keyCount += 1;
         }
 
         else if (collision.gameObject.tag == "KeyDoor")
         {
-            if(KeyCount > 0)
+            if(keyCount > 0)
             {
                 print("Unlocking the door");
                 Destroy(collision.gameObject);
-                KeyCount -= 1;
+                keyCount -= 1;
             }
 
             else
             {
                 print("I can't unlock that right now.");
             }
+        }
+
+        else if (collision.gameObject.tag == "staticBomb")
+        {
+            print("Picking up bombs");
+            Destroy(collision.gameObject);
+            bombCount = +1;
         }
     }
 }
