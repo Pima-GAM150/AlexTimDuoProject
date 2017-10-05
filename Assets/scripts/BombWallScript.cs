@@ -15,9 +15,9 @@ public class BombWallScript : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-        if (HitByBomb == true)
+        if (HitByBomb)
         {
-            Destroy(BombWall);
+            Destroy(BombWall.gameObject);
             print("Destroying the wall!");
         }
         else if (HitByBomb == false)
@@ -26,9 +26,9 @@ public class BombWallScript : MonoBehaviour {
         }
 	}
 
-    void OnCollisionEnter2D(Collision2D coll)
+    void OnTriggerEnter2D(Collision2D coll)
     {
-        if (coll.gameObject.tag.Equals("Bomb"))
+        if (coll.gameObject.tag == "Bomb")
         {
             print("A bomb is hitting the wall!");
             HitByBomb = true;

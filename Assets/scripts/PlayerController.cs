@@ -41,4 +41,13 @@ public class PlayerController : MonoBehaviour {
         anim.SetFloat("LastMoveX", lastMove.x);
         anim.SetFloat("LastMoveY", lastMove.y);
     }
+
+    public void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "Key")
+        {
+            print("Picking up the key");
+            Destroy(collision.gameObject);
+        }
+    }
 }
