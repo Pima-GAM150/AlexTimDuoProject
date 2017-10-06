@@ -73,7 +73,7 @@ public class PlayerController : MonoBehaviour {
         anim.SetFloat("LastMoveY", lastMove.y);
     }
 
-    public void OnTriggerEnter2D(Collider2D collision)
+    public void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.tag == "Key")
         {
