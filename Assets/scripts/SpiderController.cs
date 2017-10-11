@@ -17,12 +17,19 @@ public class SpiderController : MonoBehaviour {
 
     private Vector3 moveDirection;
 
+    public float waitToReload;
+    private bool reloading;
+    private GameObject thePlayer;
+
 	// Use this for initialization
 	void Start () {
         myRigidbody = GetComponent<Rigidbody2D>();
 
-        timeBetweenMoveCounter = timeBetweenMove;
-        timeToMoveCounter = timeToMove;
+        //timeBetweenMoveCounter = timeBetweenMove;
+        //timeToMoveCounter = timeToMove;
+
+        timeBetweenMoveCounter = Random.Range(timeBetweenMove * 0.75f, timeBetweenMove * 1.25f);
+        timeToMoveCounter = Random.Range(timeToMove * .75f, timeBetweenMove * 1.25f);
 		
 	}
 	
@@ -37,7 +44,8 @@ public class SpiderController : MonoBehaviour {
             if(timeToMoveCounter < 0f)
             {
                 moving = false;
-                timeBetweenMoveCounter = timeBetweenMove;
+                //timeBetweenMoveCounter = timeBetweenMove;
+                timeBetweenMoveCounter = Random.Range(timeBetweenMove * 0.75f, timeBetweenMove * 1.25f);
             }
         }
 
@@ -49,10 +57,35 @@ public class SpiderController : MonoBehaviour {
             if (timeBetweenMoveCounter < 0f)
             {
                 moving = true;
-                timeToMoveCounter = timeToMove;
+                //timeToMoveCounter = timeToMove;
+                timeToMoveCounter = Random.Range(timeToMove * .75f, timeBetweenMove * 1.25f);
 
                 moveDirection = new Vector3(Random.Range(-1f, 1f) * moveSpeed, Random.Range(-1f, 1f) * moveSpeed, 0f);
             }
         }
+
+        if (reloading)
+        {
+            waitToReload -= Time.deltaTime;
+            if(waitToReload < 0)
+            {
+                Application.LoadLevel(Application.loadedLevel);
+                thePlayer.SetActive(true);
+            }
+        }
+
 	}
+
+    private void OnCollisionEnter2D(Collision2D other)
+    {
+        if(other.gameObject.name == "warrior")
+        {
+            //Destroy(other.gameObject);
+            other.gameObject.SetActive(false);
+            reloading = true;
+            thePlayer = other.gameObject;
+        }
+    }
+
+
 }

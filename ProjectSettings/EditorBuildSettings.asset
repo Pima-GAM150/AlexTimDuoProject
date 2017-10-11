@@ -14,3 +14,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/scenes/Dungeon.unity
     guid: b2390e906264fb045a958a5d78f1f516
+  - enabled: 1
+    path: Assets/scenes/LeftDungeonDown.unity
+    guid: 7fbf49a12dd78b04c84a4377fafebe4d
+  - enabled: 1
+    path: Assets/scenes/RightDungeonDown.unity
+    guid: 3b4e0111947b9064aa4248ec428e41a5
