@@ -1,21 +1,25 @@
 fileFormatVersion: 2
-guid: b147772ca44bf33498e37d59e62c09f9
-timeCreated: 1506374430
+guid: e43ceeb8034bcc04a8116f546149af45
+timeCreated: 1507759782
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: warrior_m_0
-    21300002: warrior_m_1
-    21300004: warrior_m_2
-    21300006: warrior_m_3
-    21300008: warrior_m_4
-    21300010: warrior_m_5
-    21300012: warrior_m_6
-    21300014: warrior_m_7
-    21300016: warrior_m_8
-    21300018: warrior_m_9
-    21300020: warrior_m_10
-    21300022: warrior_m_11
+    21300000: warrior_atk_0
+    21300002: warrior_atk_1
+    21300004: warrior_atk_2
+    21300006: warrior_atk_3
+    21300008: warrior_atk_4
+    21300010: warrior_atk_5
+    21300012: warrior_atk_6
+    21300014: warrior_atk_7
+    21300016: warrior_atk_8
+    21300018: warrior_atk_9
+    21300020: warrior_atk_10
+    21300022: warrior_atk_11
+    21300024: warrior_atk_12
+    21300026: warrior_atk_13
+    21300028: warrior_atk_14
+    21300030: warrior_atk_15
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -57,7 +61,7 @@ TextureImporter:
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spritePixelsToUnits: 13
+  spritePixelsToUnits: 6.5
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -68,49 +72,49 @@ TextureImporter:
   textureFormatSet: 0
   platformSettings:
   - buildTarget: DefaultTexturePlatform
-    maxTextureSize: 256
+    maxTextureSize: 2048
     textureFormat: -1
-    textureCompression: 2
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
   - buildTarget: Standalone
-    maxTextureSize: 256
+    maxTextureSize: 2048
     textureFormat: -1
-    textureCompression: 2
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-  - buildTarget: Android
-    maxTextureSize: 256
-    textureFormat: -1
-    textureCompression: 2
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-  - buildTarget: Windows Store Apps
-    maxTextureSize: 256
-    textureFormat: -1
-    textureCompression: 2
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-  - buildTarget: WebGL
-    maxTextureSize: 256
-    textureFormat: -1
-    textureCompression: 2
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
   - buildTarget: iPhone
-    maxTextureSize: 256
+    maxTextureSize: 2048
     textureFormat: -1
-    textureCompression: 2
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -119,169 +123,225 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: warrior_m_0
+      name: warrior_atk_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 107
-        width: 29
-        height: 37
-      alignment: 9
-      pivot: {x: 0.57786447, y: 0.44768977}
-      border: {x: 3, y: 0, z: 0, w: 2}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: warrior_m_1
-      rect:
-        serializedVersion: 2
-        x: 33
-        y: 108
-        width: 31
-        height: 35
+        x: 251
+        y: 611
+        width: 13
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
-      border: {x: 2, y: 2, z: 1, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: warrior_m_2
-      rect:
-        serializedVersion: 2
-        x: 66
-        y: 108
-        width: 29
-        height: 35
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 1, y: 0, z: 0, w: 1}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: warrior_m_3
-      rect:
-        serializedVersion: 2
-        x: 3
-        y: 72
-        width: 28
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 2, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: warrior_m_4
-      rect:
-        serializedVersion: 2
-        x: 39
-        y: 74
-        width: 24
-        height: 33
-      alignment: 9
-      pivot: {x: 0.3983213, y: 0.4826006}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: warrior_m_5
+      name: warrior_atk_1
       rect:
         serializedVersion: 2
-        x: 68
-        y: 72
-        width: 27
-        height: 34
+        x: 269
+        y: 610
+        width: 13
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
-      border: {x: 3, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: warrior_m_6
-      rect:
-        serializedVersion: 2
-        x: 3
-        y: 36
-        width: 26
-        height: 34
-      alignment: 9
-      pivot: {x: 0.55273634, y: 0.46639353}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: warrior_m_7
+      name: warrior_atk_2
       rect:
         serializedVersion: 2
-        x: 34
-        y: 38
-        width: 29
-        height: 34
-      alignment: 9
-      pivot: {x: 0.51576036, y: 0.4798363}
-      border: {x: 1, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: warrior_m_8
-      rect:
-        serializedVersion: 2
-        x: 67
-        y: 36
-        width: 28
-        height: 34
-      alignment: 9
-      pivot: {x: 0.5472809, y: 0.4731148}
+        x: 287
+        y: 610
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: warrior_m_9
+      name: warrior_atk_3
       rect:
         serializedVersion: 2
-        x: 3
-        y: 0
-        width: 24
-        height: 34
-      alignment: 9
-      pivot: {x: 0.6484013, y: 0.44286156}
+        x: 305
+        y: 610
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: warrior_m_10
+      name: warrior_atk_4
       rect:
         serializedVersion: 2
-        x: 34
-        y: 2
-        width: 25
-        height: 34
-      alignment: 9
-      pivot: {x: 0.6618924, y: 0.4428615}
-      border: {x: 1, y: 0, z: 0, w: 0}
+        x: 252
+        y: 590
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: warrior_m_11
+      name: warrior_atk_5
       rect:
         serializedVersion: 2
-        x: 67
-        y: 0
-        width: 26
-        height: 34
-      alignment: 9
-      pivot: {x: 0.6120793, y: 0.43333846}
+        x: 270
+        y: 590
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: warrior_atk_6
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 590
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: warrior_atk_7
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 590
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: warrior_atk_8
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 571
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: warrior_atk_9
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 570
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: warrior_atk_10
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 570
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: warrior_atk_11
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 570
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: warrior_atk_12
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 550
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: warrior_atk_13
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 550
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: warrior_atk_14
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 550
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: warrior_atk_15
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 550
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

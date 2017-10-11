@@ -78,13 +78,13 @@ public class SpiderController : MonoBehaviour {
 
     private void OnCollisionEnter2D(Collision2D other)
     {
-        if(other.gameObject.name == "warrior")
+        /*if(other.gameObject.name == "warrior")
         {
             //Destroy(other.gameObject);
             other.gameObject.SetActive(false);
             reloading = true;
             thePlayer = other.gameObject;
-        }
+        }*/
     }
 
 
