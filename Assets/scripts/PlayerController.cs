@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class PlayerController : MonoBehaviour {
 
@@ -21,6 +19,8 @@ public class PlayerController : MonoBehaviour {
 
     public int keyCount;
     public int bombCount;
+
+    public GameObject setBomb;
 
 	// Use this for initialization
 	void Start () {
@@ -78,7 +78,11 @@ public class PlayerController : MonoBehaviour {
                 myRigidbody.velocity = Vector2.zero;
                 anim.SetBool("Attack", true);
             }
-
+            if (Input.GetKeyDown(KeyCode.E))
+            {
+                GameObject.Instantiate(setBomb);
+                print("Setting down the bomb!");
+            }
         }
 
         if (attackTimeCounter > 0)
@@ -130,4 +134,6 @@ public class PlayerController : MonoBehaviour {
             bombCount = +1;
         }
     }
+
+
 }
