@@ -5,9 +5,15 @@ using UnityEngine;
 public class HurtPlayer : MonoBehaviour {
 
     public int damageToGive;
+    private int currentDamage;
+    public GameObject damageNumber;
+
+    private PlayerStats thePS;
 
 	// Use this for initialization
 	void Start () {
+
+        thePS = FindObjectOfType<PlayerStats>();
 		
 	}
 	
@@ -20,7 +26,17 @@ public class HurtPlayer : MonoBehaviour {
     {
         if(other.gameObject.name == "warrior")
         {
-            other.gameObject.GetComponent<PlayerHealthManager>().HurtPlayer(damageToGive);                    
+
+            currentDamage = damageToGive - thePS.currentDefence;
+            if(currentDamage < 0)
+            {
+                currentDamage = 0;
+            }
+
+            other.gameObject.GetComponent<PlayerHealthManager>().HurtPlayer(currentDamage);
+
+            var clone = (GameObject)Instantiate(damageNumber, other.transform.position, Quaternion.Euler(Vector3.zero));
+            clone.GetComponent<FloatingNumbers>().damageNumber = currentDamage;
         }
     }
 }
