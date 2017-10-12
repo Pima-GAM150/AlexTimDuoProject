@@ -187,6 +187,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelToLoad: Main
+  exitPoint: Test Shop Out
 --- !u!61 &657233384
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -253,6 +254,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startDirection: {x: 0, y: 1}
+  pointName: 
 --- !u!4 &2004523599
 Transform:
   m_ObjectHideFlags: 0
