@@ -1,21 +1,21 @@
 fileFormatVersion: 2
-guid: dee8fabc2a517c746bd4547114d5a856
-timeCreated: 1507830399
+guid: 2c343390661a78e4a836f68afdb9a95d
+timeCreated: 1507830999
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: townfolk1_m_0
-    21300002: townfolk1_m_1
-    21300004: townfolk1_m_2
-    21300006: townfolk1_m_3
-    21300008: townfolk1_m_4
-    21300010: townfolk1_m_5
-    21300012: townfolk1_m_6
-    21300014: townfolk1_m_7
-    21300016: townfolk1_m_8
-    21300018: townfolk1_m_9
-    21300020: townfolk1_m_10
-    21300022: townfolk1_m_11
+    21300000: King_0
+    21300002: King_1
+    21300004: King_2
+    21300006: King_3
+    21300008: King_4
+    21300010: King_5
+    21300012: King_6
+    21300014: King_7
+    21300016: King_8
+    21300018: King_9
+    21300020: King_10
+    21300022: King_11
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -57,7 +57,7 @@ TextureImporter:
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spritePixelsToUnits: 13
+  spritePixelsToUnits: 16
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -68,7 +68,7 @@ TextureImporter:
   textureFormatSet: 0
   platformSettings:
   - buildTarget: DefaultTexturePlatform
-    maxTextureSize: 256
+    maxTextureSize: 512
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
@@ -76,7 +76,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
   - buildTarget: Standalone
-    maxTextureSize: 256
+    maxTextureSize: 512
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
@@ -84,7 +84,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
   - buildTarget: iPhone
-    maxTextureSize: 256
+    maxTextureSize: 512
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
@@ -92,7 +92,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
   - buildTarget: Android
-    maxTextureSize: 256
+    maxTextureSize: 512
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
@@ -100,7 +100,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
   - buildTarget: Windows Store Apps
-    maxTextureSize: 256
+    maxTextureSize: 512
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
@@ -108,7 +108,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
   - buildTarget: WebGL
-    maxTextureSize: 256
+    maxTextureSize: 512
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
@@ -119,13 +119,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: townfolk1_m_0
+      name: King_0
       rect:
         serializedVersion: 2
-        x: 3
-        y: 108
-        width: 26
-        height: 32
+        x: 143
+        y: 248
+        width: 14
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -133,13 +133,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: townfolk1_m_1
+      name: King_1
       rect:
         serializedVersion: 2
-        x: 35
-        y: 110
-        width: 28
-        height: 32
+        x: 159
+        y: 249
+        width: 14
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -147,13 +147,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: townfolk1_m_2
+      name: King_2
       rect:
         serializedVersion: 2
-        x: 69
-        y: 108
-        width: 26
-        height: 32
+        x: 175
+        y: 248
+        width: 14
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -161,13 +161,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: townfolk1_m_3
+      name: King_3
       rect:
         serializedVersion: 2
-        x: 5
-        y: 72
-        width: 22
-        height: 32
+        x: 143
+        y: 230
+        width: 12
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -175,13 +175,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: townfolk1_m_4
+      name: King_4
       rect:
         serializedVersion: 2
-        x: 37
-        y: 74
-        width: 18
-        height: 32
+        x: 159
+        y: 231
+        width: 12
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -189,13 +189,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: townfolk1_m_5
+      name: King_5
       rect:
         serializedVersion: 2
-        x: 69
-        y: 72
-        width: 20
-        height: 32
+        x: 175
+        y: 230
+        width: 12
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -203,13 +203,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: townfolk1_m_6
+      name: King_6
       rect:
         serializedVersion: 2
-        x: 3
-        y: 36
-        width: 26
-        height: 32
+        x: 143
+        y: 212
+        width: 14
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -217,13 +217,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: townfolk1_m_7
+      name: King_7
       rect:
         serializedVersion: 2
-        x: 35
-        y: 38
-        width: 28
-        height: 32
+        x: 159
+        y: 213
+        width: 14
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -231,13 +231,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: townfolk1_m_8
+      name: King_8
       rect:
         serializedVersion: 2
-        x: 69
-        y: 36
-        width: 26
-        height: 32
+        x: 175
+        y: 212
+        width: 14
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -245,13 +245,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: townfolk1_m_9
+      name: King_9
       rect:
         serializedVersion: 2
-        x: 9
-        y: 0
-        width: 20
-        height: 32
+        x: 145
+        y: 194
+        width: 12
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -259,13 +259,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: townfolk1_m_10
+      name: King_10
       rect:
         serializedVersion: 2
-        x: 43
-        y: 2
-        width: 18
-        height: 32
+        x: 161
+        y: 195
+        width: 12
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -273,13 +273,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: townfolk1_m_11
+      name: King_11
       rect:
         serializedVersion: 2
-        x: 71
-        y: 0
-        width: 22
-        height: 32
+        x: 177
+        y: 194
+        width: 12
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

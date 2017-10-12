@@ -254,7 +254,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startDirection: {x: 0, y: 1}
-  pointName: 
+  pointName: Shop Start
 --- !u!4 &2004523599
 Transform:
   m_ObjectHideFlags: 0

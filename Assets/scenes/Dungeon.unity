@@ -137,7 +137,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelToLoad: RightDungeonDown
-  exitPoint: 
+  exitPoint: Right Dungeon Down Start
 --- !u!61 &201201263
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -673,7 +673,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelToLoad: LeftDungeonDown
-  exitPoint: 
+  exitPoint: Left Dungeon Down Start
 --- !u!61 &1870731554
 BoxCollider2D:
   m_ObjectHideFlags: 0

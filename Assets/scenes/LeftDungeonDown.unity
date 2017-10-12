@@ -414,7 +414,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startDirection: {x: 0, y: 1}
-  pointName: 
+  pointName: Left Dungeon Down Start
 --- !u!1001 &1653909863
 Prefab:
   m_ObjectHideFlags: 0
