@@ -25,6 +25,7 @@ GameObject:
   - component: {fileID: 50229663270747446}
   - component: {fileID: 114805014781540694}
   - component: {fileID: 114237667268284716}
+  - component: {fileID: 114605509255664608}
   m_Layer: 0
   m_Name: SpiderBlue
   m_TagString: Enemy
@@ -109,6 +110,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageToGive: 10
+--- !u!114 &114605509255664608
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1490793239322190}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fae03355415e28948966cb1adb242c5b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MaxHealth: 20
+  CurrentHealth: 0
 --- !u!114 &114805014781540694
 MonoBehaviour:
   m_ObjectHideFlags: 1
