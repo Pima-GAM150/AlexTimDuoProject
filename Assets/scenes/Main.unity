@@ -801,6 +801,12 @@ Prefab:
       propertyPath: attackTime
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 114289366425824118, guid: 7a684691342a9814881ad85b0ac0f187,
+        type: 2}
+      propertyPath: setBomb
+      value: 
+      objectReference: {fileID: 1562526405949828, guid: 23533fb38c230734e9772752eda5f371,
+        type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7a684691342a9814881ad85b0ac0f187, type: 2}
   m_IsPrefabParent: 0

@@ -9,7 +9,7 @@ public class BombScript : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-
+        //BombBoxCollider.transform.position = player character position;
 	}
 	
 	// Update is called once per frame
