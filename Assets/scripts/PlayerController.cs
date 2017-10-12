@@ -96,7 +96,7 @@ public class PlayerController : MonoBehaviour {
 
             if (Input.GetKeyDown(KeyCode.E))
             {
-                GameObject.Instantiate(setBomb);
+                GameObject.Instantiate(setBomb, transform.position + (transform.forward * 2), transform.rotation);
                 print("Setting down the bomb!");
             }
                         
