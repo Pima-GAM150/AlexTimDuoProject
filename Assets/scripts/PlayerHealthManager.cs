@@ -1,14 +1,21 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerHealthManager : MonoBehaviour {
 
     public int playerMaxHealth;
     public int playerCurrentHealth;
 
-	// Use this for initialization
-	void Start () {
+    private void PlayerDeath(string startScreen)
+    {
+        SceneManager.LoadScene(startScreen);
+        print("Swapping to main scene");
+    }
+
+    // Use this for initialization
+    void Start () {
         playerCurrentHealth = playerMaxHealth;
 
 		
@@ -20,6 +27,7 @@ public class PlayerHealthManager : MonoBehaviour {
         if(playerCurrentHealth <= 0)
         {
             gameObject.SetActive(false);
+            PlayerDeath("Start Menu");
         }
 
 	}
