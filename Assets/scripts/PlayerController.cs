@@ -29,6 +29,7 @@ public class PlayerController : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+
         anim = GetComponent<Animator>();
         myRigidbody = GetComponent<Rigidbody2D>();
 
@@ -94,10 +95,15 @@ public class PlayerController : MonoBehaviour {
             }
 
 
-            if (Input.GetKeyDown(KeyCode.E))
+            if (Input.GetKeyDown(KeyCode.E) && bombCount > 0)
             {
                 GameObject.Instantiate(setBomb, transform.position + (transform.forward * 2), transform.rotation);
                 print("Setting down the bomb!");
+                bombCount -= 1;
+            }
+            else if(Input.GetKeyDown(KeyCode.E) && bombCount <= 0)
+            {
+                print("I'm out of bombs.");
             }
                         
         }
