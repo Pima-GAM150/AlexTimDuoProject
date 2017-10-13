@@ -6,8 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/scenes/Castle.unity
-    guid: 6666bddb42a5dfb4ea5fb7d874668b1a
+    path: Assets/scenes/Main.unity
+    guid: 39597c6405e6a2540b7a240349ce7fbc
   - enabled: 1
     path: Assets/scenes/Dungeon.unity
     guid: b2390e906264fb045a958a5d78f1f516
@@ -15,11 +15,11 @@ EditorBuildSettings:
     path: Assets/scenes/LeftDungeonDown.unity
     guid: 7fbf49a12dd78b04c84a4377fafebe4d
   - enabled: 1
-    path: Assets/scenes/Main.unity
-    guid: 39597c6405e6a2540b7a240349ce7fbc
-  - enabled: 1
     path: Assets/scenes/RightDungeonDown.unity
     guid: 3b4e0111947b9064aa4248ec428e41a5
+  - enabled: 1
+    path: Assets/scenes/Castle.unity
+    guid: 6666bddb42a5dfb4ea5fb7d874668b1a
   - enabled: 1
     path: Assets/scenes/Room.unity
     guid: c76816c067140084abd5af5b3b5f6e3c

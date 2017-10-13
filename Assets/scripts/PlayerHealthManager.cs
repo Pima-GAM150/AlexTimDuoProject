@@ -34,7 +34,7 @@ public class PlayerHealthManager : MonoBehaviour {
         if(playerCurrentHealth <= 0)
         {
             gameObject.SetActive(false);
-            PlayerDeath("Start Menu");
+            //PlayerDeath("Start Menu");
         }
 
         if (flashActive)
